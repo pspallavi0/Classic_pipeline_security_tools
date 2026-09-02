@@ -8,12 +8,7 @@ terraform {
     }
   }
 
-  backend "azurerm" {
-    resource_group_name  = "vistara-rg"
-    storage_account_name = "vistarastg"
-    container_name       = "vistaracontainer"
-    key                  = "terraform.tfstate"
-  }
+  
 }
 
 provider "azurerm" {
