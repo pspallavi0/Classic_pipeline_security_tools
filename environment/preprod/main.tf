@@ -1,5 +1,5 @@
-module"resource_group"{
+module "resource_group" {
 
-    source="../../modules/resource_group"  
-    rgs=var.rgs
+  source = "../../modules/resource_group"
+  rgs    = var.rgs
 }
