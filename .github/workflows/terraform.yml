@@ -39,7 +39,7 @@ jobs:
         run: terraform version
 
       - name: Terraform Format
-      run: terraform fmt -recursive
+        run: terraform fmt -recursive
 
       - name: Terraform Init
         run: terraform init
